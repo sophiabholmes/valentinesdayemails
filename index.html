@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Email Archive</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Email Archive</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="year">2017</div>
-    <!-- <div class="title">Optional title</div> -->
-  </header>
+<header class="site-header">
+<div class="site-title">valentine's email archive</div>
+<div class="year">2026</div>
+</header>
 
-  <img src="images/2017_3.jpg" alt="" class="email-image">
+<img src="images/2026.jpg" class="email-image">
 
-  <a class="next" href="email-02.html">→</a>
-
-  <script>
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight") {
-        const next = document.querySelector(".next");
-        if (next) window.location.href = next.href;
-      }
-      if (e.key === "ArrowLeft") {
-        const prev = document.querySelector(".prev");
-        if (prev) window.location.href = prev.href;
-      }
-    });
-  </script>
+<a class="next" href="email-02.html">→</a>
 
 </body>
 </html>
