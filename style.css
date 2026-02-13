@@ -8,11 +8,11 @@ header { margin: 30px; }
   opacity: 0.5;
 }
 
-.title {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 11px;
-  margin-top: 6px;
-  opacity: 0.7;
+.site-title {
+  font-family: inherit;
+  font-size: 32px;
+  text-decoration: none;
+  color: #5b2ca0;
 }
 
 .email-image {
