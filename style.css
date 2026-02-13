@@ -1,5 +1,9 @@
 body { margin: 0; background: white; }
 header { margin: 30px; }
+<header class="site-header">
+  <div class="site-title">valentine's email archive</div>
+  <div class="year">2017</div>
+</header>
 
 .year {
   font-family: Arial, Helvetica, sans-serif;
