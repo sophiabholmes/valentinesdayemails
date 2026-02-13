@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Email Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+<div class="site-title">valentine's email archive</div>
+<div class="year">2022</div>
+</header>
+
+<img src="images/2022.jpg" class="email-image">
+
+<a class="prev" href="email-04.html">←</a>
+<a class="next" href="email-06.html">→</a>
+
+</body>
+</html>
