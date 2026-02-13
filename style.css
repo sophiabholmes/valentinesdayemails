@@ -9,8 +9,8 @@ header { margin: 30px; }
 }
 
 .site-title {
-  font-family: inherit;
-  font-size: 32px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
   text-decoration: none;
   color: #5b2ca0;
 }
