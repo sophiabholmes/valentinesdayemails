@@ -1,0 +1,35 @@
+body { margin: 0; background: white; }
+header { margin: 30px; }
+
+.year {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 6px;
+  opacity: 0.7;
+}
+
+.email-image {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto 120px auto;
+}
+
+.next, .prev {
+  position: fixed;
+  bottom: 30px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.next { right: 30px; }
+.prev { left: 30px; }
+.next:hover, .prev:hover { opacity: 1; }
