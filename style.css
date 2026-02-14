@@ -24,10 +24,10 @@ header { margin: 30px; }
 .next, .prev {
   position: fixed;
   bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
   color: black;
-  opacity: 0.4;
+  opacity: 0.2;
   font-family: Arial, Helvetica, sans-serif;
 }
 .next { right: 30px; }
